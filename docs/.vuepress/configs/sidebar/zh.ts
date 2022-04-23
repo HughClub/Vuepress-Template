@@ -1,10 +1,3 @@
-import type { SidebarConfig } from '@vuepress/theme-default'
-export const zh:SidebarConfig = {
-    '/':[
-        {
-            text: "",
-            children:[
-            ]
-        }
-    ]
-}
+import { SidebarConfig } from '@vuepress/theme-default'
+import idx from "./idx.json"
+export const zh:SidebarConfig = idx
